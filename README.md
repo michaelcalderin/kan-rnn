@@ -69,6 +69,21 @@ python Scripts/kan_rnn.py \
   --weight_decay 0.0
   ```
 
+## Results
+### Summary
+- Performance was comparable to LSTM in terms of metrics and reduced overfitting
+- Both LSTM and KAN-RNN were outperformed by Standard RNN, but RNN showed greater signs of overfitting
+- KAN-RNN was significantly slower to train (~20x slower than the RNN in this project)
+- Performance of KAN-RNN is sensitive to configuration and not yet well understood
+- Similar to LSTM, KAN-RNN seems to struggle with underrepresented classes (perhaps its advantage is in data regimes with higher volume)
+- KANs are a promising but early-stage approach. While they offer increased flexibility and potential generalization benefits, they currently involve trade-offs in speed and reliability.
+
+### Future Work
+- Evaluate performance on small or imbalanced datasets
+- Test in larger data regimes and different domains
+- Integrate KAN components into modern architectures (e.g., attention-based models)
+- Improve computational efficiency and training speed
+
 ## Citation
 If you use this project or its codebase in your research, please cite appropriately.
 
