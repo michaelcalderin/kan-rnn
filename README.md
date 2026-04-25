@@ -84,6 +84,11 @@ python Scripts/kan_rnn.py \
 - Integrate KAN components into modern architectures (e.g., attention-based models)
 - Improve computational efficiency and training speed
 
+## References
+- [KAN Paper (Kolmogorov–Arnold Networks)](https://arxiv.org/abs/2404.19756)
+- [EfficientKAN GitHub Repository](https://github.com/Blealtan/efficient-kan)
+- [Financial Sentiment Analysis Dataset (Kaggle)](https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis)
+
 ## Citation
 If you use this project or its codebase in your research, please cite appropriately.
 
